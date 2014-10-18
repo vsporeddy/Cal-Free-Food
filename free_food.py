@@ -5,6 +5,8 @@ import gflags
 import base64
 import email
 
+#from mercurial import Lib/quopri
+from bs4 import BeautifulSoup
 from apiclient.discovery import build
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.file import Storage
@@ -55,7 +57,8 @@ def get_msg(query, service = gmail_service, user_id = 'me'):
     print 'An error occurred: %s' % error
 
 #free_msg = get_msg("free food is:unread"), 
-food_msg = get_msg("food OR lunch OR dinner OR drink OR pizza OR barbecue")
+food_msg = get_msg("food OR snacks OR lunch OR dinner OR drink OR pizza OR barbecue")
+
 
 #print "Containing 'free':"
 #for i in free_msg:
@@ -71,4 +74,14 @@ print " "
 print "Containing 'free food'"
 for i in food_msg:
     message = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
-    print '%s' % message['snippet']
+    filename = 'emails/' + message['snippet'] + '.txt'
+    msg_str = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
+
+
+    msg = email.message_from_string(msg_str)
+    f = open(filename, "a")
+    f.write(msg_str)
+    #msg = email.message_from_string(msg_str)
+    #print msg_str
+    #soup = BeautifulSoup(msg)
+    #print soup.get_text()
