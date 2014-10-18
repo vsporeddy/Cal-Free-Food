@@ -12,7 +12,7 @@ from oauth2client.client import flow_from_clientsecrets
 from oauth2client.file import Storage
 from oauth2client.tools import run
 from googleapiclient import errors
-
+import re
 
 # Path to the client_secret.json file downloaded from the Developer Console
 CLIENT_SECRET_FILE = './client_secret_119686003876-c78cm37js1r3lpnvascaqenrc87knifa.apps.googleusercontent.com.json'
@@ -86,12 +86,16 @@ for i in food_msg:
     print(snip)
     filename = 'platter/' + snip + '.txt'
     msg_str = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
-    
-    
+
+    position = re.search(snip[:len(snip)//2],msg_str)
+    position = position.start()
+    print(position)
+    msg_str = msg_str[position:]
+#    print(msg_str)
+
     msg = email.message_from_string(msg_str)
     f = open(filename, "a")
     f.write(msg_str)
-#msg = email.message_from_string(msg_str)
-#print msg_str
-#soup = BeautifulSoup(msg)
-#print soup.get_text()
+
+
+

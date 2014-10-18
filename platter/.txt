@@ -1,0 +1,443 @@
+MIME-Version: 1.0
+Received: by 10.43.127.130 with HTTP; Tue, 14 Oct 2014 19:59:57 -0700 (PDT)
+In-Reply-To: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+References: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+Date: Tue, 14 Oct 2014 19:59:57 -0700
+Delivered-To: calfreefood@gmail.com
+Message-ID: <CAPdDwHAvGiNomYbsPT1rS8Ep9gjG+5hxUGwC2nrDyr_vqyDLDg@mail.gmail.com>
+Subject: Re: auth 8b711710 subscribe cs-intended
+From: Free Food <calfreefood@gmail.com>
+To: SYMPA <sympa@lists.eecs.berkeley.edu>
+Content-Type: multipart/alternative; boundary=e89a8f5020f0afdea905056d53ca
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/plain; charset=UTF-8
+
+auth 8b711710 subscribe cs-intended
+
+On Tue, Oct 14, 2014 at 7:59 PM, SYMPA <sympa@lists.eecs.berkeley.edu>
+wrote:
+
+>   You requested that your e-mail address be added to list 'cs-intended'.
+> If you want this action to be taken, please
+>
+> - reply to this mail
+> OR
+> - send a message to sympa@lists.eecs.berkeley.edu with subject
+>  auth 8b711710 subscribe cs-intended
+> OR
+> - hit the following mailto mailto:sympa@lists.eecs.berkeley.edu
+> ?subject=auth%208b711710%20subscribe%20cs-intended%20
+>
+> If you do not want this action to be taken, you can safely ignore this
+> message.
+>
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-family:arial,sans-serif;font-size:13px=
+">auth 8b711710 subscribe cs-intended</span><br></div><div class=3D"gmail_e=
+xtra"><br><div class=3D"gmail_quote">On Tue, Oct 14, 2014 at 7:59 PM, SYMPA=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:sympa@lists.eecs.berkeley.edu" tar=
+get=3D"_blank">sympa@lists.eecs.berkeley.edu</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex">=C2=A0 You requested that your e-mail address be =
+added to list &#39;cs-intended&#39;.<br>
+If you want this action to be taken, please<br>
+<br>
+- reply to this mail<br>
+OR<br>
+- send a message to <a href=3D"mailto:sympa@lists.eecs.berkeley.edu">sympa@=
+lists.eecs.berkeley.edu</a> with subject<br>
+=C2=A0auth 8b711710 subscribe cs-intended<br>
+OR<br>
+- hit the following mailto mailto:<a href=3D"mailto:sympa@lists.eecs.berkel=
+ey.edu">sympa@lists.eecs.berkeley.edu</a>?subject=3Dauth%208b711710%20subsc=
+ribe%20cs-intended%20<br>
+<br>
+If you do not want this action to be taken, you can safely ignore this mess=
+age.<br>
+</blockquote></div><br></div>
+
+--e89a8f5020f0afdea905056d53ca--MIME-Version: 1.0
+Received: by 10.43.127.130 with HTTP; Tue, 14 Oct 2014 19:59:57 -0700 (PDT)
+In-Reply-To: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+References: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+Date: Tue, 14 Oct 2014 19:59:57 -0700
+Delivered-To: calfreefood@gmail.com
+Message-ID: <CAPdDwHAvGiNomYbsPT1rS8Ep9gjG+5hxUGwC2nrDyr_vqyDLDg@mail.gmail.com>
+Subject: Re: auth 8b711710 subscribe cs-intended
+From: Free Food <calfreefood@gmail.com>
+To: SYMPA <sympa@lists.eecs.berkeley.edu>
+Content-Type: multipart/alternative; boundary=e89a8f5020f0afdea905056d53ca
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/plain; charset=UTF-8
+
+auth 8b711710 subscribe cs-intended
+
+On Tue, Oct 14, 2014 at 7:59 PM, SYMPA <sympa@lists.eecs.berkeley.edu>
+wrote:
+
+>   You requested that your e-mail address be added to list 'cs-intended'.
+> If you want this action to be taken, please
+>
+> - reply to this mail
+> OR
+> - send a message to sympa@lists.eecs.berkeley.edu with subject
+>  auth 8b711710 subscribe cs-intended
+> OR
+> - hit the following mailto mailto:sympa@lists.eecs.berkeley.edu
+> ?subject=auth%208b711710%20subscribe%20cs-intended%20
+>
+> If you do not want this action to be taken, you can safely ignore this
+> message.
+>
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-family:arial,sans-serif;font-size:13px=
+">auth 8b711710 subscribe cs-intended</span><br></div><div class=3D"gmail_e=
+xtra"><br><div class=3D"gmail_quote">On Tue, Oct 14, 2014 at 7:59 PM, SYMPA=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:sympa@lists.eecs.berkeley.edu" tar=
+get=3D"_blank">sympa@lists.eecs.berkeley.edu</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex">=C2=A0 You requested that your e-mail address be =
+added to list &#39;cs-intended&#39;.<br>
+If you want this action to be taken, please<br>
+<br>
+- reply to this mail<br>
+OR<br>
+- send a message to <a href=3D"mailto:sympa@lists.eecs.berkeley.edu">sympa@=
+lists.eecs.berkeley.edu</a> with subject<br>
+=C2=A0auth 8b711710 subscribe cs-intended<br>
+OR<br>
+- hit the following mailto mailto:<a href=3D"mailto:sympa@lists.eecs.berkel=
+ey.edu">sympa@lists.eecs.berkeley.edu</a>?subject=3Dauth%208b711710%20subsc=
+ribe%20cs-intended%20<br>
+<br>
+If you do not want this action to be taken, you can safely ignore this mess=
+age.<br>
+</blockquote></div><br></div>
+
+--e89a8f5020f0afdea905056d53ca--MIME-Version: 1.0
+Received: by 10.43.127.130 with HTTP; Tue, 14 Oct 2014 19:59:57 -0700 (PDT)
+In-Reply-To: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+References: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+Date: Tue, 14 Oct 2014 19:59:57 -0700
+Delivered-To: calfreefood@gmail.com
+Message-ID: <CAPdDwHAvGiNomYbsPT1rS8Ep9gjG+5hxUGwC2nrDyr_vqyDLDg@mail.gmail.com>
+Subject: Re: auth 8b711710 subscribe cs-intended
+From: Free Food <calfreefood@gmail.com>
+To: SYMPA <sympa@lists.eecs.berkeley.edu>
+Content-Type: multipart/alternative; boundary=e89a8f5020f0afdea905056d53ca
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/plain; charset=UTF-8
+
+auth 8b711710 subscribe cs-intended
+
+On Tue, Oct 14, 2014 at 7:59 PM, SYMPA <sympa@lists.eecs.berkeley.edu>
+wrote:
+
+>   You requested that your e-mail address be added to list 'cs-intended'.
+> If you want this action to be taken, please
+>
+> - reply to this mail
+> OR
+> - send a message to sympa@lists.eecs.berkeley.edu with subject
+>  auth 8b711710 subscribe cs-intended
+> OR
+> - hit the following mailto mailto:sympa@lists.eecs.berkeley.edu
+> ?subject=auth%208b711710%20subscribe%20cs-intended%20
+>
+> If you do not want this action to be taken, you can safely ignore this
+> message.
+>
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-family:arial,sans-serif;font-size:13px=
+">auth 8b711710 subscribe cs-intended</span><br></div><div class=3D"gmail_e=
+xtra"><br><div class=3D"gmail_quote">On Tue, Oct 14, 2014 at 7:59 PM, SYMPA=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:sympa@lists.eecs.berkeley.edu" tar=
+get=3D"_blank">sympa@lists.eecs.berkeley.edu</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex">=C2=A0 You requested that your e-mail address be =
+added to list &#39;cs-intended&#39;.<br>
+If you want this action to be taken, please<br>
+<br>
+- reply to this mail<br>
+OR<br>
+- send a message to <a href=3D"mailto:sympa@lists.eecs.berkeley.edu">sympa@=
+lists.eecs.berkeley.edu</a> with subject<br>
+=C2=A0auth 8b711710 subscribe cs-intended<br>
+OR<br>
+- hit the following mailto mailto:<a href=3D"mailto:sympa@lists.eecs.berkel=
+ey.edu">sympa@lists.eecs.berkeley.edu</a>?subject=3Dauth%208b711710%20subsc=
+ribe%20cs-intended%20<br>
+<br>
+If you do not want this action to be taken, you can safely ignore this mess=
+age.<br>
+</blockquote></div><br></div>
+
+--e89a8f5020f0afdea905056d53ca--MIME-Version: 1.0
+Received: by 10.43.127.130 with HTTP; Tue, 14 Oct 2014 19:59:57 -0700 (PDT)
+In-Reply-To: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+References: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+Date: Tue, 14 Oct 2014 19:59:57 -0700
+Delivered-To: calfreefood@gmail.com
+Message-ID: <CAPdDwHAvGiNomYbsPT1rS8Ep9gjG+5hxUGwC2nrDyr_vqyDLDg@mail.gmail.com>
+Subject: Re: auth 8b711710 subscribe cs-intended
+From: Free Food <calfreefood@gmail.com>
+To: SYMPA <sympa@lists.eecs.berkeley.edu>
+Content-Type: multipart/alternative; boundary=e89a8f5020f0afdea905056d53ca
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/plain; charset=UTF-8
+
+auth 8b711710 subscribe cs-intended
+
+On Tue, Oct 14, 2014 at 7:59 PM, SYMPA <sympa@lists.eecs.berkeley.edu>
+wrote:
+
+>   You requested that your e-mail address be added to list 'cs-intended'.
+> If you want this action to be taken, please
+>
+> - reply to this mail
+> OR
+> - send a message to sympa@lists.eecs.berkeley.edu with subject
+>  auth 8b711710 subscribe cs-intended
+> OR
+> - hit the following mailto mailto:sympa@lists.eecs.berkeley.edu
+> ?subject=auth%208b711710%20subscribe%20cs-intended%20
+>
+> If you do not want this action to be taken, you can safely ignore this
+> message.
+>
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-family:arial,sans-serif;font-size:13px=
+">auth 8b711710 subscribe cs-intended</span><br></div><div class=3D"gmail_e=
+xtra"><br><div class=3D"gmail_quote">On Tue, Oct 14, 2014 at 7:59 PM, SYMPA=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:sympa@lists.eecs.berkeley.edu" tar=
+get=3D"_blank">sympa@lists.eecs.berkeley.edu</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex">=C2=A0 You requested that your e-mail address be =
+added to list &#39;cs-intended&#39;.<br>
+If you want this action to be taken, please<br>
+<br>
+- reply to this mail<br>
+OR<br>
+- send a message to <a href=3D"mailto:sympa@lists.eecs.berkeley.edu">sympa@=
+lists.eecs.berkeley.edu</a> with subject<br>
+=C2=A0auth 8b711710 subscribe cs-intended<br>
+OR<br>
+- hit the following mailto mailto:<a href=3D"mailto:sympa@lists.eecs.berkel=
+ey.edu">sympa@lists.eecs.berkeley.edu</a>?subject=3Dauth%208b711710%20subsc=
+ribe%20cs-intended%20<br>
+<br>
+If you do not want this action to be taken, you can safely ignore this mess=
+age.<br>
+</blockquote></div><br></div>
+
+--e89a8f5020f0afdea905056d53ca--MIME-Version: 1.0
+Received: by 10.43.127.130 with HTTP; Tue, 14 Oct 2014 19:59:57 -0700 (PDT)
+In-Reply-To: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+References: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+Date: Tue, 14 Oct 2014 19:59:57 -0700
+Delivered-To: calfreefood@gmail.com
+Message-ID: <CAPdDwHAvGiNomYbsPT1rS8Ep9gjG+5hxUGwC2nrDyr_vqyDLDg@mail.gmail.com>
+Subject: Re: auth 8b711710 subscribe cs-intended
+From: Free Food <calfreefood@gmail.com>
+To: SYMPA <sympa@lists.eecs.berkeley.edu>
+Content-Type: multipart/alternative; boundary=e89a8f5020f0afdea905056d53ca
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/plain; charset=UTF-8
+
+auth 8b711710 subscribe cs-intended
+
+On Tue, Oct 14, 2014 at 7:59 PM, SYMPA <sympa@lists.eecs.berkeley.edu>
+wrote:
+
+>   You requested that your e-mail address be added to list 'cs-intended'.
+> If you want this action to be taken, please
+>
+> - reply to this mail
+> OR
+> - send a message to sympa@lists.eecs.berkeley.edu with subject
+>  auth 8b711710 subscribe cs-intended
+> OR
+> - hit the following mailto mailto:sympa@lists.eecs.berkeley.edu
+> ?subject=auth%208b711710%20subscribe%20cs-intended%20
+>
+> If you do not want this action to be taken, you can safely ignore this
+> message.
+>
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-family:arial,sans-serif;font-size:13px=
+">auth 8b711710 subscribe cs-intended</span><br></div><div class=3D"gmail_e=
+xtra"><br><div class=3D"gmail_quote">On Tue, Oct 14, 2014 at 7:59 PM, SYMPA=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:sympa@lists.eecs.berkeley.edu" tar=
+get=3D"_blank">sympa@lists.eecs.berkeley.edu</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex">=C2=A0 You requested that your e-mail address be =
+added to list &#39;cs-intended&#39;.<br>
+If you want this action to be taken, please<br>
+<br>
+- reply to this mail<br>
+OR<br>
+- send a message to <a href=3D"mailto:sympa@lists.eecs.berkeley.edu">sympa@=
+lists.eecs.berkeley.edu</a> with subject<br>
+=C2=A0auth 8b711710 subscribe cs-intended<br>
+OR<br>
+- hit the following mailto mailto:<a href=3D"mailto:sympa@lists.eecs.berkel=
+ey.edu">sympa@lists.eecs.berkeley.edu</a>?subject=3Dauth%208b711710%20subsc=
+ribe%20cs-intended%20<br>
+<br>
+If you do not want this action to be taken, you can safely ignore this mess=
+age.<br>
+</blockquote></div><br></div>
+
+--e89a8f5020f0afdea905056d53ca--MIME-Version: 1.0
+Received: by 10.43.127.130 with HTTP; Tue, 14 Oct 2014 19:59:57 -0700 (PDT)
+In-Reply-To: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+References: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+Date: Tue, 14 Oct 2014 19:59:57 -0700
+Delivered-To: calfreefood@gmail.com
+Message-ID: <CAPdDwHAvGiNomYbsPT1rS8Ep9gjG+5hxUGwC2nrDyr_vqyDLDg@mail.gmail.com>
+Subject: Re: auth 8b711710 subscribe cs-intended
+From: Free Food <calfreefood@gmail.com>
+To: SYMPA <sympa@lists.eecs.berkeley.edu>
+Content-Type: multipart/alternative; boundary=e89a8f5020f0afdea905056d53ca
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/plain; charset=UTF-8
+
+auth 8b711710 subscribe cs-intended
+
+On Tue, Oct 14, 2014 at 7:59 PM, SYMPA <sympa@lists.eecs.berkeley.edu>
+wrote:
+
+>   You requested that your e-mail address be added to list 'cs-intended'.
+> If you want this action to be taken, please
+>
+> - reply to this mail
+> OR
+> - send a message to sympa@lists.eecs.berkeley.edu with subject
+>  auth 8b711710 subscribe cs-intended
+> OR
+> - hit the following mailto mailto:sympa@lists.eecs.berkeley.edu
+> ?subject=auth%208b711710%20subscribe%20cs-intended%20
+>
+> If you do not want this action to be taken, you can safely ignore this
+> message.
+>
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-family:arial,sans-serif;font-size:13px=
+">auth 8b711710 subscribe cs-intended</span><br></div><div class=3D"gmail_e=
+xtra"><br><div class=3D"gmail_quote">On Tue, Oct 14, 2014 at 7:59 PM, SYMPA=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:sympa@lists.eecs.berkeley.edu" tar=
+get=3D"_blank">sympa@lists.eecs.berkeley.edu</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex">=C2=A0 You requested that your e-mail address be =
+added to list &#39;cs-intended&#39;.<br>
+If you want this action to be taken, please<br>
+<br>
+- reply to this mail<br>
+OR<br>
+- send a message to <a href=3D"mailto:sympa@lists.eecs.berkeley.edu">sympa@=
+lists.eecs.berkeley.edu</a> with subject<br>
+=C2=A0auth 8b711710 subscribe cs-intended<br>
+OR<br>
+- hit the following mailto mailto:<a href=3D"mailto:sympa@lists.eecs.berkel=
+ey.edu">sympa@lists.eecs.berkeley.edu</a>?subject=3Dauth%208b711710%20subsc=
+ribe%20cs-intended%20<br>
+<br>
+If you do not want this action to be taken, you can safely ignore this mess=
+age.<br>
+</blockquote></div><br></div>
+
+--e89a8f5020f0afdea905056d53ca--MIME-VersiMIME-Version: 1.0
+Received: bMIME-Version: 1.0
+Received: by 10.43.127.130 with HTTP; Tue, 14 Oct 2014 19:59:57 -0700 (PDT)
+In-Reply-To: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+References: <201410150259.s9F2xTE2031885@rockyroad.EECS.Berkeley.EDU>
+Date: Tue, 14 Oct 2014 19:59:57 -0700
+Delivered-To: calfreefood@gmail.com
+Message-ID: <CAPdDwHAvGiNomYbsPT1rS8Ep9gjG+5hxUGwC2nrDyr_vqyDLDg@mail.gmail.com>
+Subject: Re: auth 8b711710 subscribe cs-intended
+From: Free Food <calfreefood@gmail.com>
+To: SYMPA <sympa@lists.eecs.berkeley.edu>
+Content-Type: multipart/alternative; boundary=e89a8f5020f0afdea905056d53ca
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/plain; charset=UTF-8
+
+auth 8b711710 subscribe cs-intended
+
+On Tue, Oct 14, 2014 at 7:59 PM, SYMPA <sympa@lists.eecs.berkeley.edu>
+wrote:
+
+>   You requested that your e-mail address be added to list 'cs-intended'.
+> If you want this action to be taken, please
+>
+> - reply to this mail
+> OR
+> - send a message to sympa@lists.eecs.berkeley.edu with subject
+>  auth 8b711710 subscribe cs-intended
+> OR
+> - hit the following mailto mailto:sympa@lists.eecs.berkeley.edu
+> ?subject=auth%208b711710%20subscribe%20cs-intended%20
+>
+> If you do not want this action to be taken, you can safely ignore this
+> message.
+>
+
+--e89a8f5020f0afdea905056d53ca
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-family:arial,sans-serif;font-size:13px=
+">auth 8b711710 subscribe cs-intended</span><br></div><div class=3D"gmail_e=
+xtra"><br><div class=3D"gmail_quote">On Tue, Oct 14, 2014 at 7:59 PM, SYMPA=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:sympa@lists.eecs.berkeley.edu" tar=
+get=3D"_blank">sympa@lists.eecs.berkeley.edu</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex">=C2=A0 You requested that your e-mail address be =
+added to list &#39;cs-intended&#39;.<br>
+If you want this action to be taken, please<br>
+<br>
+- reply to this mail<br>
+OR<br>
+- send a message to <a href=3D"mailto:sympa@lists.eecs.berkeley.edu">sympa@=
+lists.eecs.berkeley.edu</a> with subject<br>
+=C2=A0auth 8b711710 subscribe cs-intended<br>
+OR<br>
+- hit the following mailto mailto:<a href=3D"mailto:sympa@lists.eecs.berkel=
+ey.edu">sympa@lists.eecs.berkeley.edu</a>?subject=3Dauth%208b711710%20subsc=
+ribe%20cs-intended%20<br>
+<br>
+If you do not want this action to be taken, you can safely ignore this mess=
+age.<br>
+</blockquote></div><br></div>
+
+--e89a8f5020f0afdea905056d53ca--
