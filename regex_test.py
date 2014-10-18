@@ -16,11 +16,11 @@ content = lambda x: x[1]
 file_address = lambda x: x[2]
 
 def regex(string):
- return str(re.match("word", string))
+ return str(re.search('word', string))
 
 for email in email_list:
-	r=regex(content(email))
-	if r:
-		file_object(email).write(r)
+	reg=regex(content(email))
+	if reg:
+		file_object(email).write("\n\nTags:"+reg)
 	else:
 		os.remove(file_address(email))
