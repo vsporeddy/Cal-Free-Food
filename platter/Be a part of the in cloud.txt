@@ -1,0 +1,142 @@
+Delivered-To: calfreefood@gmail.com
+Received: by 10.43.127.130 with SMTP id ha2csp776004icc;
+        Thu, 16 Oct 2014 12:00:30 -0700 (PDT)
+X-Received: by 10.70.61.230 with SMTP id t6mr3452476pdr.36.1413486029904;
+        Thu, 16 Oct 2014 12:00:29 -0700 (PDT)
+Return-Path: <cs-intended-owner@lists.eecs.berkeley.edu>
+Received: from rockyroad.EECS.Berkeley.EDU (rockyroad.EECS.Berkeley.EDU. [128.32.244.171])
+        by mx.google.com with ESMTPS id zm3si19676307pac.162.2014.10.16.12.00.27
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 16 Oct 2014 12:00:29 -0700 (PDT)
+Received-SPF: none (google.com: cs-intended-owner@lists.eecs.berkeley.edu does not designate permitted sender hosts) client-ip=128.32.244.171;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: cs-intended-owner@lists.eecs.berkeley.edu does not designate permitted sender hosts) smtp.mail=cs-intended-owner@lists.eecs.berkeley.edu
+Received: from rockyroad.EECS.Berkeley.EDU (localhost.localdomain [127.0.0.1])
+	by rockyroad.EECS.Berkeley.EDU (8.13.8/8.13.8) with ESMTP id s9GJ0Ibm002762
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Thu, 16 Oct 2014 12:00:18 -0700
+Received: (from sympa@localhost)
+	by rockyroad.EECS.Berkeley.EDU (8.13.8/8.13.8/Submit) id s9GJ0HeW002760;
+	Thu, 16 Oct 2014 12:00:17 -0700
+Received: from cm03fe.IST.Berkeley.EDU (cm03fe.IST.Berkeley.EDU [169.229.218.144])
+	by rockyroad.EECS.Berkeley.EDU (8.13.8/8.13.8) with ESMTP id s9GJ0DQ9002744
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <cs-intended@lists.EECS.Berkeley.EDU>; Thu, 16 Oct 2014 12:00:13 -0700
+Received: from mail-qc0-f172.google.com ([209.85.216.172])
+	by cm03fe.ist.berkeley.edu with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76)
+	(envelope-from <acchan@berkeley.edu>)
+	id 1XeqHU-0006rm-AT
+	for cs-intended@eecs.berkeley.edu; Thu, 16 Oct 2014 12:00:12 -0700
+Received: by mail-qc0-f172.google.com with SMTP id o8so3382890qcw.3
+        for <cs-intended@eecs.berkeley.edu>; Thu, 16 Oct 2014 12:00:11 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:content-type:mime-version:subject:to:from:date
+         :message-id;
+        bh=1jqENLYO2rJIfCFsSDtv6TDvqSU4NcmrLsZOZ5UXj0Y=;
+        b=WsAxF8RE0gPH8igBPmehyU73MokDISlLXp5qJowmaV9CB9SJGIvAs4RKNkwRAEGImi
+         vvvYzKFKYWJIi5WfHRTGBrooHoMDf91hU1k821GvwaCb9diiP5SHGWLxBWhVKEL/ejGP
+         Y4P0B/GzDLLb8KZwONoewT69N/143ZFrpwq78K7p0QJOLDUpRNZJ+OqXThA5EWK68akR
+         sS51X4GkL2bk3soKDF02jhdFulug3CpYYTCHgAAbWW/1J7WnfrVBgwWGkhhaWNoad3rx
+         vl0+NCiZQrF4uZ8jlVrx71jfpBSQA9YSfXm9mc/vZHj2KmjeTWp2X8BWH8SvQ66YTlpz
+         nSPw==
+X-Gm-Message-State: ALoCoQm4bIX98COy3c+lCpiBiOJtUXBpi145Xp6uU6LBqhKgQoJZ9td5MmlKusinDn9kWkaJ556h
+X-Received: by 10.224.129.195 with SMTP id p3mr5065616qas.66.1413486011051;
+        Thu, 16 Oct 2014 12:00:11 -0700 (PDT)
+Received: from [127.0.0.1] (ec2-54-224-191-1.compute-1.amazonaws.com. [54.224.191.1])
+        by mx.google.com with ESMTPSA id s10sm201695qac.14.2014.10.16.12.00.09
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 16 Oct 2014 12:00:09 -0700 (PDT)
+Content-Type: multipart/mixed; boundary="===============1878520654022660863=="
+MIME-Version: 1.0
+To: 
+From: Atalie Chan <acchan@eecs.berkeley.edu>
+Date: Thu, 16 Oct 2014 19:00:08 -0000
+Message-ID: <20141016173856.12362.14948@ip-10-185-135-33.ec2.internal>
+X-Ucb-Scan-Signature: 98b51a3b19ef44646f5299bd2d849cdaee814d37
+X-Ucb-Spam: Gauge=IIIIIII, Probability=7%, Report='ALL_TRUSTED -1,
+ 	HTML_MESSAGE 0.001'
+X-Ucb-Notice: This message has been processed by a spam tagging system.
+Subject: [cs-intended] Workday Info Session Tonight!
+X-Loop: cs-intended@lists.eecs.berkeley.edu
+X-Sequence: 173
+Errors-to: cs-intended-owner@lists.eecs.berkeley.edu
+Precedence: list
+Precedence: bulk
+X-no-archive: yes
+List-Id: <cs-intended.lists.eecs.berkeley.edu>
+List-Archive: <https://lists.eecs.berkeley.edu/sympa/arc/cs-intended>
+List-Help: <mailto:sympa@lists.eecs.berkeley.edu?subject=help>
+List-Owner: <mailto:cs-intended-request@lists.eecs.berkeley.edu>
+List-Post: <mailto:cs-intended@lists.eecs.berkeley.edu>
+List-Subscribe: <mailto:sympa@lists.eecs.berkeley.edu?subject=subscribe%20cs-intended>
+List-Unsubscribe: <mailto:sympa@lists.eecs.berkeley.edu?subject=unsubscribe%20cs-intended>
+
+
+--===============1878520654022660863==
+Content-Type: multipart/alternative;
+	boundary="===============1213013117933467056=="
+MIME-Version: 1.0
+
+
+--===============1213013117933467056==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+Be a part of the in cloud!
+Join us for an information session.
+
+Hiring innovators!
+Workday is positively disrupting the enterprise software space as a leader=
+=20
+in cloud technology. Meet our team and learn about Generation Workday, a=20
+program uniquely designed to help you launch your career into the cloud.
+
+Thursday, October 16th
+5:30 - 7:00 pm
+Wozniak Lounge
+Free food and drinks=
+
+--===============1213013117933467056==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-family:arial,sans-serif;font-size:13.3=
+333339691162px">Be a part of the in cloud!</span><div style=3D"font-family:=
+arial,sans-serif;font-size:13.3333339691162px">Join us for an information s=
+ession.</div><div style=3D"font-family:arial,sans-serif;font-size:13.333333=
+9691162px"><br></div><div style=3D"font-family:arial,sans-serif;font-size:1=
+3.3333339691162px">Hiring innovators!</div><div style=3D"font-family:arial,=
+sans-serif;font-size:13.3333339691162px">Workday is positively disrupting t=
+he enterprise software space as a leader in cloud technology. Meet our team=
+ and learn about Generation Workday, a program uniquely designed to help yo=
+u launch your career into the cloud.</div><div style=3D"font-family:arial,s=
+ans-serif;font-size:13.3333339691162px"><br></div><div style=3D"font-family=
+:arial,sans-serif;font-size:13.3333339691162px">Thursday, October 16th</div=
+><div style=3D"font-family:arial,sans-serif;font-size:13.3333339691162px"><=
+span class=3D"" tabindex=3D"0"><span class=3D"">5:30 - 7:00 pm</span></span=
+></div><div style=3D"font-family:arial,sans-serif;font-size:13.333333969116=
+2px">Wozniak Lounge</div><div style=3D"font-family:arial,sans-serif;font-si=
+ze:13.3333339691162px">Free food and drinks</div><div><div dir=3D"ltr"></di=
+v></div>
+<span></span></div>=
+
+--===============1213013117933467056==--
+
+--===============1878520654022660863==
+Content-Type: text/plain; charset="UTF-8"; name="message-footer.txt"
+Content-Disposition: inline; filename="message-footer.txt"
+Content-Transfer-Encoding: 8bit
+
+----------------------------------------------------------------
+You received this message via the cs-intended mailing
+list.  To unsubscribe, send mail to sympa@lists.eecs.berkeley.edu
+with "unsubscribe cs-intended" in the *body* of the message.
+Questions to owner-cs-intended@eecs.berkeley.edu.
+
+--===============1878520654022660863==--

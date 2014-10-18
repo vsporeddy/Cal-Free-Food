@@ -5,13 +5,13 @@ import gflags
 import base64
 import email
 
-from googleapiclient.discovery import build
-#from googleapiclient import discovery
+from apiclient.discovery import build
+#from apiclient import discovery
 #from discovery import build
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.file import Storage
 from oauth2client.tools import run
-from googleapiclient import errors
+from apiclient import errors
 
 
 # Path to the client_secret.json file downloaded from the Developer Console
