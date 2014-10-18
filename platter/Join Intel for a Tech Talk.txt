@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Delivered-To: calfreefood@gmail.com
 Received: by 10.43.127.130 with SMTP id ha2csp153212icc;
         Fri, 17 Oct 2014 21:01:04 -0700 (PDT)
@@ -90,6 +91,8 @@ Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: quoted-printable
 
+=======
+>>>>>>> e7d1a563174f9202ce2cf70677f1c19135fb3c6f
 Join Intel for a Tech Talk!
 
 Thursday, October 23rd

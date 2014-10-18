@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Delivered-To: calfreefood@gmail.com
 Received: by 10.43.127.130 with SMTP id ha2csp89597icc;
         Fri, 17 Oct 2014 09:35:01 -0700 (PDT)
@@ -48,6 +49,9 @@ Date: Fri, 17 Oct 2014 09:26:21 -0700
 X-Google-Sender-Auth: lcp9Hz0EuKLzNyvE4lfSGQzuYE4
 Message-ID: <CANK3P2QKkkhncUZABe3A9OK3SOdGB1CByOjubH4xWt5j7E1MBA@mail.gmail.com>
 Subject: GSC Halloween Party Extravaganza!! 10/31
+=======
+Halloween Party Extravaganza!! 10/31
+>>>>>>> e7d1a563174f9202ce2cf70677f1c19135fb3c6f
 From: Gsc-Ga Departmental <gsc-ga@berkeley.edu>
 To: delegates@ga.berkeley.edu, gsc_events@lists.berkeley.edu
 Content-Type: multipart/alternative; boundary=047d7ba97d684c4db30505a0d308

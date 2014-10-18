@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Delivered-To: calfreefood@gmail.com
 Received: by 10.43.127.130 with SMTP id ha2csp765530icc;
         Thu, 16 Oct 2014 10:37:22 -0700 (PDT)
@@ -55,6 +56,9 @@ User-Agent: Mozilla/5.0 (Windows NT 6.1;
 MIME-Version: 1.0
 To: "yvette@citris-uc.org" <yvette@citris-uc.org>
 Subject: CITRIS Research Exchange on Oct.  22: Steven Johnson, "How We Got
+=======
+How We Got
+>>>>>>> e7d1a563174f9202ce2cf70677f1c19135fb3c6f
 	to Now"
 References: <5411ECEF.7030808@berkeley.edu>
 In-Reply-To: <5411ECEF.7030808@berkeley.edu>

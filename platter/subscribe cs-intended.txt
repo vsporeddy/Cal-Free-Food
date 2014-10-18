@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 MIME-Version: 1.0
 Received: by 10.43.127.130 with HTTP; Tue, 14 Oct 2014 19:59:24 -0700 (PDT)
 Date: Tue, 14 Oct 2014 19:59:24 -0700
 Delivered-To: calfreefood@gmail.com
 Message-ID: <CAPdDwHCFPz0749=2azr2t8P2Y=cju-PPfmZ==W1H-AbR0eTabA@mail.gmail.com>
 Subject: subscribe cs-intended
+=======
+subscribe cs-intended
+>>>>>>> e7d1a563174f9202ce2cf70677f1c19135fb3c6f
 From: Free Food <calfreefood@gmail.com>
 To: sympa@lists.eecs.berkeley.edu
 Content-Type: multipart/alternative; boundary=20cf304351d2bc4ca305056d5103
