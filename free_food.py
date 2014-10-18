@@ -74,7 +74,7 @@ print " "
 print "Containing 'free food'"
 for i in food_msg:
     message = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
-    filename = 'emails/' + message['snippet'] + '.txt'
+    filename = 'platter/' + message['snippet'] + '.txt'
     msg_str = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
 
 
