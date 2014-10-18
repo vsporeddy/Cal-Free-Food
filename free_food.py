@@ -5,11 +5,13 @@ import gflags
 import base64
 import email
 
-from apiclient.discovery import build
+from googleapiclient.discovery import build
+#from googleapiclient import discovery
+#from discovery import build
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.file import Storage
 from oauth2client.tools import run
-from apiclient import errors
+from googleapiclient import errors
 
 
 # Path to the client_secret.json file downloaded from the Developer Console
@@ -52,7 +54,7 @@ def get_msg(query, service = gmail_service, user_id = 'me'):
 
     return messages
   except errors.HttpError, error:
-    print 'An error occurred: %s' % error
+    print('An error occurred:' + error)
 
 #free_msg = get_msg("free food is:unread"), 
 food_msg = get_msg("food OR lunch OR dinner OR drink OR pizza OR barbecue")
@@ -67,8 +69,29 @@ food_msg = get_msg("food OR lunch OR dinner OR drink OR pizza OR barbecue")
 #  message = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
 #  print '%s...' % message['snippet']
 
-print " "
-print "Containing 'free food'"
+print(" ")
+print("Containing 'free food'")
 for i in food_msg:
     message = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
-    print '%s' % message['snippet']
+    snip = message['snippet']
+    count = 0
+    start, b = 0, False
+    for c in snip:
+        if c == "!" or c == "." or c == "?" or (c=="&" and b):
+            snip=snip[start:count]
+        if c == "&" and not b:
+            start = count+6
+            b=True
+        count+=1
+    print(snip)
+    filename = 'platter/' + snip + '.txt'
+    msg_str = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
+    
+    
+    msg = email.message_from_string(msg_str)
+    f = open(filename, "a")
+    f.write(msg_str)
+#msg = email.message_from_string(msg_str)
+#print msg_str
+#soup = BeautifulSoup(msg)
+#print soup.get_text()
