@@ -4,7 +4,6 @@ Jinja2==2.7.3
 MarkupSafe==0.18
 Pillow==2.3.0
 Pygments==1.6
-apt-xapian-index==0.45
 chardet==2.0.1
 colorama==0.2.5
 command-not-found==0.3
