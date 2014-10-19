@@ -5,7 +5,17 @@
     <h3> Events </h3>
     {% for event in ziplist %}
  
-        <p><a href="/platter/{{event[0]}}" + {{event[0]}} >{{event[0]}}</a>: {{event[1]}} .............. Food: {{event[2]}}</p>
+
+
+        <p><table border="1">
+  			<tr>
+    			
+    			<td>&nbsp;&nbsp;{{event[1]}}&nbsp;&nbsp;</td> 
+    			<td>&nbsp;&nbsp;<a href="/platter/{{event[0]}}" +  {{event[0]}} >{{event[0]}}</a>&nbsp;&nbsp;</td>
+    			<td> &nbsp;&nbsp;{{event[3]}}&nbsp;&nbsp;</td>
+    			<td> &nbsp;&nbsp;{{event[2]}} Provided &nbsp;</td>
+  			</tr>
+		</table></p>
 
     {% endfor %}
 

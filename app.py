@@ -13,6 +13,9 @@ def regex(string):
   start_month_short = start_month[:3]
   return list(set(re.findall('.oday|.omorrow', string) + re.findall(start_month+' \d\d|'+start_month_short+' \d\d|\d\d '+start_month+'|\d\dth '+start_month+'|'+start_month+' \d\dth', string)))
  
+def get_time(string):
+	return list(set(re.findall('\d:\d\d', string)))
+
 def get_food(string):
 	print string
 	if "izza" in string:
@@ -23,7 +26,7 @@ def get_food(string):
 		return "Lunch"
 	if "rink" in string:
 		return "Drinks"
-	return "TBA"
+	return "Food"
 	#return list(set(re.findall('food', string) + re.findall('drink', string) + re.findall('lunch', string) + re.findall('dinner', string) + re.findall('pizza', string) + re.findall('barbecue', string)))
 
 # controllers
@@ -44,21 +47,26 @@ def index():
 	events = [event for event in os.listdir('./platter/') if len(event) > 9]
 	dates = []
 	foods = []
+	times = []
 	for a in events:
 		currentfile = open('./platter/' + a, 'r').read() 
 		date = regex(currentfile)
 		food = get_food(currentfile)
+		time = get_time(currentfile)
 		if date == []:
 			date = ["Date not found"]
+		if time == []:
+			time = ["Time unknown"]
 		#print a
 		#print date[0]
 		dates += [date[0]]
 		foods += [food]
+		times += [time[0]]
 		#if a == '.txt' or a =='.DS_Store':
 		#	events.remove(a)
 
 	eventlinks = [a.split('.')[0] for a in events]
-	ziplist = zip(eventlinks, dates, foods)
+	ziplist = zip(eventlinks, dates, foods, times)
 	ziplist.sort(key = lambda t: t[1], reverse=True)
 	return render_template('index.html', events = eventlinks, dates = dates, ziplist = ziplist)
 
