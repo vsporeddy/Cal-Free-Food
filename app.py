@@ -29,14 +29,16 @@ def page_not_found(e):
 
 @app.route("/")
 def index():
-	events = [event for event in os.listdir('./platter/')]
+	events = [event for event in os.listdir('./platter/') if len(event) > 9]
 	dates = []
 	for a in events:
 		currentfile = open('./platter/' + a, 'r') 
 		date = regex(currentfile.read())
-		if date != []:
-			print date[0]
-			dates += [date[0]]
+		if date == []:
+			date = ["Date not found"]
+		print a
+		print date[0]
+		dates += [date[0]]
 		#if a == '.txt' or a =='.DS_Store':
 		#	events.remove(a)
 
