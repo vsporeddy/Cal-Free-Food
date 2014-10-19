@@ -14,7 +14,7 @@ def regex(string):
   return list(set(re.findall('.oday|.omorrow', string) + re.findall(start_month+' \d\d|'+start_month_short+' \d\d|\d\d '+start_month+'|\d\dth '+start_month+'|'+start_month+' \d\dth', string)))
  
 def get_time(string):
-	return list(set(re.findall('\d:\d\d', string)))
+	return list((re.findall('\d\d:\d\d', string) + re.findall('\d:\d\d', string)))
 
 def get_food(string):
 	print string
