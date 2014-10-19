@@ -14,6 +14,7 @@ def regex(string):
   return list(set(re.findall('.oday|.omorrow', string) + re.findall(start_month+' \d\d|'+start_month_short+' \d\d|\d\d '+start_month+'|\d\dth '+start_month+'|'+start_month+' \d\dth', string)))
  
 
+
 # controllers
 @app.route('/favicon.ico')
 def favicon():
@@ -44,6 +45,7 @@ def index():
 
 	eventlinks = [a.split('.')[0] for a in events]
 	ziplist = zip(eventlinks, dates)
+	ziplist.sort(key = lambda t: t[1], reverse=True)
 	return render_template('index.html', events = eventlinks, dates = dates, ziplist = ziplist)
 
 
