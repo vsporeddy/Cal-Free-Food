@@ -73,7 +73,7 @@ food_msg = get_msg("food OR lunch OR dinner OR drink OR pizza OR barbecue")
 #for i in food_msg:
 #  message = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
 #  print '%s...' % message['snippet']
-
+events = []
 print(" ")
 print("Containing 'free food'")
 for i in food_msg:
@@ -89,6 +89,7 @@ for i in food_msg:
             b=True
         count+=1
     print(snip)
+    events.append(snip)
     filename = 'platter/' + snip + '.txt'
     msg_str = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
 
@@ -101,6 +102,9 @@ for i in food_msg:
     msg = email.message_from_string(msg_str)
     f = open(filename, "a")
     f.write(msg_str)
+
+
+
 
 
 

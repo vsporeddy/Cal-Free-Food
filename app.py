@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, send_from_directory, send_file
 
 # initialization
 app = Flask(__name__)
@@ -12,14 +12,22 @@ app.config.update(
 def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'ico/favicon.ico')
 
+@app.route('/platter/<path>')
+def static_proxy(path):
+	return send_file("./platter/" + path)
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
 
 @app.route("/")
 def index():
-    return render_template('index.html')
-    
+	events = [event for event in os.listdir('./platter/')]
+	for a in events:
+		if a == '.txt' or a =='.DS_Store':
+			events.remove(a)
+	return render_template('index.html', events = events)
+
 
 # launch
 if __name__ == "__main__":
