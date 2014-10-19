@@ -2,13 +2,16 @@
 {% block title %} - Home{% endblock %}
 {% block content %}
 
-     
-    <h2> Upcoming Events </h2>
-    {% for event in events %}
+    <h3> Events </h3>
+    {% for event in ziplist %}
  
-        <p><a href="/platter/{{event}}" + {{event}} >{{event}}</a></p>
+        <p><a href="/platter/{{event[0]}}" + {{event[0]}} >{{event[0]}}</a>: {{event[1]}}</p>
+
    
     {% endfor %}
+
+
+
 
 
 {% endblock %}

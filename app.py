@@ -1,4 +1,5 @@
 import os
+import re
 from flask import Flask, render_template, send_from_directory, send_file
 
 # initialization
@@ -7,6 +8,12 @@ app.config.update(
     DEBUG = True,
 )
 
+def regex(string):
+  start_month = 'October'
+  start_month_short = start_month[:3]
+  return list(set(re.findall('.oday|.omorrow', string) + re.findall(start_month+' \d\d|'+start_month_short+' \d\d|\d\d '+start_month+'|\d\dth '+start_month+'|'+start_month+' \d\dth', string)))
+ 
+
 # controllers
 @app.route('/favicon.ico')
 def favicon():
@@ -14,7 +21,7 @@ def favicon():
 
 @app.route('/platter/<path>')
 def static_proxy(path):
-	return send_file("./platter/" + path)
+	return send_file("./platter/" + path + '.txt')
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -23,10 +30,19 @@ def page_not_found(e):
 @app.route("/")
 def index():
 	events = [event for event in os.listdir('./platter/')]
+	dates = []
 	for a in events:
-		if a == '.txt' or a =='.DS_Store':
-			events.remove(a)
-	return render_template('index.html', events = events)
+		currentfile = open('./platter/' + a, 'r') 
+		date = regex(currentfile.read())
+		if date != []:
+			print date[0]
+			dates += [date[0]]
+		#if a == '.txt' or a =='.DS_Store':
+		#	events.remove(a)
+
+	eventlinks = [a.split('.')[0] for a in events]
+	ziplist = zip(eventlinks, dates)
+	return render_template('index.html', events = eventlinks, dates = dates, ziplist = ziplist)
 
 
 # launch

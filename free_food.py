@@ -4,6 +4,7 @@ import httplib2
 import gflags
 import base64
 import email
+import re
 
 from apiclient.discovery import build
 #from apiclient import discovery
@@ -11,13 +12,8 @@ from apiclient.discovery import build
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.file import Storage
 from oauth2client.tools import run
-<<<<<<< HEAD
 from apiclient import errors
 
-=======
-from googleapiclient import errors
-import re
->>>>>>> e7d1a563174f9202ce2cf70677f1c19135fb3c6f
 
 # Path to the client_secret.json file downloaded from the Developer Console
 CLIENT_SECRET_FILE = './client_secret_119686003876-c78cm37js1r3lpnvascaqenrc87knifa.apps.googleusercontent.com.json'
@@ -43,6 +39,11 @@ http = credentials.authorize(http)
 # Build the Gmail service from discovery
 gmail_service = build('gmail', 'v1', http=http)
 
+def regex(string):
+  start_month = 'October'
+  start_month_short = start_month[:3]
+  return re.findall('.oday|.omorrow', string) + re.findall(start_month+' \d\d|'+start_month_short+' \d\d|\d\d '+start_month+'|\d\dth '+start_month+'|'+start_month+' \d\dth', string)
+ 
 def get_msg(query, service = gmail_service, user_id = 'me'):
   try:
     response = service.users().messages().list(userId=user_id,
@@ -73,12 +74,12 @@ food_msg = get_msg("food OR lunch OR dinner OR drink OR pizza OR barbecue")
 #for i in food_msg:
 #  message = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
 #  print '%s...' % message['snippet']
-events = []
+
 print(" ")
 print("Containing 'free food'")
 for i in food_msg:
-    message = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
-    snip = message['snippet']
+    message2 = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
+    snip = message2['snippet']
     count = 0
     start, b = 0, False
     for c in snip:
@@ -89,22 +90,28 @@ for i in food_msg:
             b=True
         count+=1
     print(snip)
-    events.append(snip)
     filename = 'platter/' + snip + '.txt'
-    msg_str = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
+    #message = gmail_service.users().messages().get(userId='me', id=i['id'], format='metadata').execute()
+    message = gmail_service.users().messages().get(userId='me', id=i['id'], format='full').execute()
+    if 'parts' in message['payload']:
+      if message['payload']['parts'][0]['mimeType'] == 'multipart/alternative':
+        message_raw = message['payload']['parts'][0]['parts'][0]['body']['data']    
+      else:
+        message_raw = message['payload']['parts'][0]['body']['data']   
+    else:
+      message_raw = message['payload']['body']['data']
+    #print(base64.urlsafe_b64decode(message2.encode('ASCII')))
+    msg_str = base64.urlsafe_b64decode(message_raw.encode('ASCII'))
+    print msg_str
 
-    position = re.search(snip[:len(snip)//2],msg_str)
-    position = position.start()
-    print(position)
-    msg_str = msg_str[position:]
-#    print(msg_str)
-
+    
     msg = email.message_from_string(msg_str)
-    f = open(filename, "a")
+    f = open(filename, "w")
     f.write(msg_str)
 
+    #print(msg_str,'\a\a\a')
 
 
-
-
-
+#print msg_str
+#soup = BeautifulSoup(msg)
+#print soup.get_text()
