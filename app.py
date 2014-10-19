@@ -25,6 +25,8 @@ def get_food(string):
 	if "lunch" in string or "Lunch" in string:
 		return "Lunch"
 	if "rink" in string:
+		if "food" in string or "Food" in string:
+			return "Food and drinks"
 		return "Drinks"
 	return "Food"
 	#return list(set(re.findall('food', string) + re.findall('drink', string) + re.findall('lunch', string) + re.findall('dinner', string) + re.findall('pizza', string) + re.findall('barbecue', string)))
