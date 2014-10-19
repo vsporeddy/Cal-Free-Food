@@ -26,7 +26,7 @@ for email in email_list:
 	reg=regex(content(email))
 	if len(reg)>0:
 		t = open(file_address(email), 'w+')
-		t.write( file_name(email) + "\nExcerpt:"+ str(reg)+ "\n\n" + content(email) )
+		t.write( content(email) ) # file_name(email) + "\nExcerpt:"+ str(reg)+ "\n\n" +
 	else:
 		file_object(email).close()
 		os.remove(file_address(email))
