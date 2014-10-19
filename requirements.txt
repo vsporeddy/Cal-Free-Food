@@ -4,14 +4,7 @@ Jinja2==2.7.3
 MarkupSafe==0.18
 Pillow==2.3.0
 Pygments==1.6
-Sphinx==1.2.2
-Twisted-Core==13.2.0
-Twisted-Web==13.2.0
-Werkzeug==0.9.6
-adium-theme-ubuntu==0.3.4
 apt-xapian-index==0.45
-argparse==1.2.1
-beautifulsoup4==4.2.1
 chardet==2.0.1
 colorama==0.2.5
 command-not-found==0.3
@@ -24,7 +17,6 @@ duplicity==0.6.23
 google-api-python-client==1.2
 html5lib==0.999
 httplib2==0.9
-ipython==2.3.0
 itsdangerous==0.24
 lockfile==0.8
 lxml==3.3.3
