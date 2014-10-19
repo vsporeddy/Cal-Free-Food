@@ -6,7 +6,6 @@ google-api-python-client==1.2
 html5lib==0.999
 httplib2==0.9
 oauthlib==0.6.1
-oneconf==0.3.7
 psycopg2==2.5.4
 pyOpenSSL==0.13
 redis==2.10.3
