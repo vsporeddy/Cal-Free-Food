@@ -2,22 +2,11 @@
 {% block title %} - Home{% endblock %}
 {% block content %}
 
-    <h4> Events </h4>
+    <h4> Events </h4><hr>
     {% for event in ziplist %}
- 
-
-
-        <p><table border="1">
-  			<tr>
-    			
-    			<td>&nbsp;&nbsp;{{event[1]}}&nbsp;&nbsp;</td> 
-    			<td>&nbsp;&nbsp;<a href="/platter/{{event[0]}}" +  {{event[0]}} >{{event[0]}}</a>&nbsp;&nbsp;</td>
-    			<td> &nbsp;&nbsp;{{event[3]}}&nbsp;&nbsp;</td>
-    			<td> &nbsp;&nbsp;{{event[2]}} provided &nbsp;</td>
-  			</tr>
-		</table></p>
+    	<p><u>{{event[1]}}:</u> <b>{{event[2]}}</b> provided at {{event[3]}} - <a href="/platter/{{event[0]}}" +  {{event[0]}} >{{event[0]}}</a></p><hr>
 
     {% endfor %}
-
-
 {% endblock %}
+
+

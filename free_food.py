@@ -83,14 +83,15 @@ for i in food_msg:
     count = 0
     start, b = 0, False
     for c in snip:
-        if c == "!" or c == "." or c == "?" or (c=="&" and b):
+        if c == "!" or c == "/" or c == "." or c == "?" or (c=="&" and b):
             snip=snip[start:count]
         if c == "&" and not b:
             start = count+6
             b=True
         count+=1
     print(snip)
-    filename = 'platter/' + snip + '.txt'
+    filename = 'templates/' + snip + '.html'
+    filename2 = 'platter/' + snip + '.html'
     #message = gmail_service.users().messages().get(userId='me', id=i['id'], format='metadata').execute()
     message = gmail_service.users().messages().get(userId='me', id=i['id'], format='full').execute()
     if 'parts' in message['payload']:
@@ -107,7 +108,9 @@ for i in food_msg:
     
     msg = email.message_from_string(msg_str)
     f = open(filename, "w")
-    f.write(msg_str)
+    g = open(filename2, "w")
+    f.write('{% extends "base.html" %}{% block title %} - Platter{% endblock %}{% block content %}<p><a href="{{ url_for("index") }}">home</a></p><pre>' + msg_str + '</pre>{% endblock %}')
+    g.write('{% extends "base.html" %}{% block title %} - Platter{% endblock %}{% block content %}<p><a href="{{ url_for("index") }}">home</a></p><pre>' + msg_str + '</pre>{% endblock %}')
 
     #print(msg_str,'\a\a\a')
 
