@@ -10,7 +10,7 @@ def regex(string):
   return list(set(re.findall('.oday|.omorrow', string) + re.findall(start_month+' \d\d|'+start_month_short+' \d\d|\d\d '+start_month+'|\d\dth '+start_month+'|'+start_month+' \d\dth', string)))
  
 def get_time(string):
-	return list((re.findall('\d\d:\d\d', string) + re.findall('\d:\d\d', string) + re.findall('\dpm', string)))
+	return list((re.findall('\d\d:\d\d', string) + re.findall('\d:\d\d', string) + re.findall('\d\dpm', string) + re.findall('\dpm', string)))
 
 def get_food(string):
 	print string
@@ -28,7 +28,7 @@ def get_food(string):
 	#return list(set(re.findall('food', string) + re.findall('drink', string) + re.findall('lunch', string) + re.findall('dinner', string) + re.findall('pizza', string) + re.findall('barbecue', string)))
 
 def getlist():
-	events = [event for event in os.listdir('./platter/') if len(event) > 9]
+	events = [event for event in os.listdir('./platter/') if event != '.DS_Store' and event != '.txt' and event != '.html']
 	dates = []
 	foods = []
 	times = []
