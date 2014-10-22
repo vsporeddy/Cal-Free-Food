@@ -13,7 +13,6 @@ def get_time(string):
 	return list((re.findall('\d\d:\d\d', string) + re.findall('\d:\d\d', string) + re.findall('\d\dpm', string) + re.findall('\dpm', string)))
 
 def get_food(string):
-	print string
 	if "izza" in string:
 		return "Pizza"
 	if "dinner" in string or "Dinner" in string:

@@ -25,6 +25,7 @@ def page_not_found(e):
 
 @app.route("/")
 def index():
+	free_food.run()
 	return render_template('index.html', ziplist = regexpy.getlist())
 
 
@@ -32,6 +33,5 @@ def index():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
-    while True:
-    	time.sleep(3600)
-    	free_food.run()
+
+
