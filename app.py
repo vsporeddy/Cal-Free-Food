@@ -1,5 +1,7 @@
 import os
 import regexpy
+import free_food
+import time
 from flask import Flask, render_template, send_from_directory, send_file
 
 # initialization
@@ -30,3 +32,6 @@ def index():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
+    while True:
+    	time.sleep(3600)
+    	free_food.run()

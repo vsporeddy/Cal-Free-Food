@@ -75,42 +75,43 @@ food_msg = get_msg("food OR lunch OR dinner OR drink OR pizza OR barbecue")
 #  message = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
 #  print '%s...' % message['snippet']
 
-print(" ")
-print("Containing 'free food'")
-for i in food_msg:
-    message2 = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
-    snip = message2['snippet']
-    count = 0
-    start, b = 0, False
-    for c in snip:
-        if c == "!" or c == "/" or c == "." or c == "?" or (c=="&" and b):
-            snip=snip[start:count]
-        if c == "&" and not b:
-            start = count+6
-            b=True
-        count+=1
-    print(snip)
-    filename = 'templates/' + snip + '.html'
-    filename2 = 'platter/' + snip + '.html'
-    #message = gmail_service.users().messages().get(userId='me', id=i['id'], format='metadata').execute()
-    message = gmail_service.users().messages().get(userId='me', id=i['id'], format='full').execute()
-    if 'parts' in message['payload']:
-      if message['payload']['parts'][0]['mimeType'] == 'multipart/alternative':
-        message_raw = message['payload']['parts'][0]['parts'][0]['body']['data']    
+def run():
+  print(" ")
+  print("Containing 'free food'")
+  for i in food_msg:
+      message2 = gmail_service.users().messages().get(userId='me', id=i['id'], format='raw').execute()
+      snip = message2['snippet']
+      count = 0
+      start, b = 0, False
+      for c in snip:
+          if c == "!" or c == "/" or c == "." or c == "?" or (c=="&" and b):
+              snip=snip[start:count]
+          if c == "&" and not b:
+              start = count+6
+              b=True
+          count+=1
+      print(snip)
+      filename = 'templates/' + snip + '.html'
+      filename2 = 'platter/' + snip + '.html'
+      #message = gmail_service.users().messages().get(userId='me', id=i['id'], format='metadata').execute()
+      message = gmail_service.users().messages().get(userId='me', id=i['id'], format='full').execute()
+      if 'parts' in message['payload']:
+        if message['payload']['parts'][0]['mimeType'] == 'multipart/alternative':
+          message_raw = message['payload']['parts'][0]['parts'][0]['body']['data']    
+        else:
+          message_raw = message['payload']['parts'][0]['body']['data']   
       else:
-        message_raw = message['payload']['parts'][0]['body']['data']   
-    else:
-      message_raw = message['payload']['body']['data']
-    #print(base64.urlsafe_b64decode(message2.encode('ASCII')))
-    msg_str = base64.urlsafe_b64decode(message_raw.encode('ASCII'))
-    print msg_str
+        message_raw = message['payload']['body']['data']
+      #print(base64.urlsafe_b64decode(message2.encode('ASCII')))
+      msg_str = base64.urlsafe_b64decode(message_raw.encode('ASCII'))
+      print msg_str
 
-    
-    msg = email.message_from_string(msg_str)
-    f = open(filename, "w")
-    g = open(filename2, "w")
-    f.write('{% extends "base.html" %}{% block title %} - Platter{% endblock %}{% block content %}<p><a href="{{ url_for("index") }}">home</a></p><pre>' + msg_str + '</pre>{% endblock %}')
-    g.write('{% extends "base.html" %}{% block title %} - Platter{% endblock %}{% block content %}<p><a href="{{ url_for("index") }}">home</a></p><pre>' + msg_str + '</pre>{% endblock %}')
+      
+      msg = email.message_from_string(msg_str)
+      f = open(filename, "w")
+      g = open(filename2, "w")
+      f.write('{% extends "base.html" %}{% block title %} - Platter{% endblock %}{% block content %}<p><a href="{{ url_for("index") }}">home</a></p><pre>' + msg_str + '</pre>{% endblock %}')
+      g.write('{% extends "base.html" %}{% block title %} - Platter{% endblock %}{% block content %}<p><a href="{{ url_for("index") }}">home</a></p><pre>' + msg_str + '</pre>{% endblock %}')
 
     #print(msg_str,'\a\a\a')
 
